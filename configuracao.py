@@ -3,7 +3,7 @@ import pygame
 # tamanho do jogo
 COLUNAS = 10
 LINHAS = 20
-CELULA = 20
+CELULA = 30
 LARGURA_JOGO, ALTURA_JOGO = COLUNAS * CELULA, LINHAS * CELULA
 
 # tamanho do display ao lado
