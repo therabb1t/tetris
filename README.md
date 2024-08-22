@@ -4,7 +4,8 @@ Projeto em Python utilizando PyGame
 
 
 Tetris é um jogo simples que consiste em você encaixar peças até fechar uma linha, quanto mais linhas, mais pontos. 
-- Speedrun: tem como base a conquista mais rápida do final do jogo a melhor conquista de final de jogo. Willis Gibson que foi o primeiro ser humano a zerar o tetris. normalmente como tetris é um jogo muito longo aqueles que praticam speedruns não o zeram, mas chegam a um determinado Level igual a 19 no caso apanas o Tetris (NES)(1988) que o campeão mundial até agora é o Cheez dos Estados Unidos.
+Willis Gibson que foi o primeiro ser humano a zerar o tetris.
+- Speedrun: tem como base a finalizar o jogo o mais rápido possível, normalmente como tetris é um jogo muito longo aqueles que praticam speedruns não o zeram, mas chegam a um determinado Level igual a 19 como no Tetris (NES-1988) que o campeão mundial até agora é o Cheez dos Estados Unidos.
 
 O tetris inicialmente era um jogo de exercícios militares sovieticos para programas de inteligência artificial baseados em estratégia e matemática, criado por Alexey Pajitnov (Алексей Пажитнов) junto de seus colegas de trabalho Dmitry Pavlovsky e Vadim Gerasimov (Дмитрий Павловский и Вадим Герасимов) em um centro de pesquisa científica soviética, em 1984.
 
@@ -14,7 +15,7 @@ A linguagem de programação utilizada por Pajitnov foi **Pascal**, conhecido pe
   <img src="https://tetris.wiki/images/e/ea/Original_Tetris.png" width="400" height="300"/>
 </p>
 
-De 1984 á 1991 Alexey não ganhou absolutamente nada pela fama do seu jogo, o que envolvia uma polêmica entre o Governo Soviético com o empresário britânico Robert Stein que conseguiu cópias piratas do jogo, até enifm migrar para os EUA com Henk Rogers e fundarem a *The Tetris Company*, 
+De 1984 á 1991 Alexey não ganhou absolutamente nada pela fama do seu jogo, o que envolvia uma polêmica entre o Governo Soviético com o empresário britânico Robert Stein que conseguiu cópias piratas do jogo, até enifm migrar para os EUA com Henk Rogers e fundarem a *The Tetris Company*.
 
 <p align="center">
   <img src="https://forbes.com.br/wp-content/uploads/2023/04/Alexey-Pajitnov-793x533.jpg" width="400" height="300"/>
