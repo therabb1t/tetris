@@ -29,21 +29,21 @@ Após 40 anos de seu lançamento, mais de um bilhão de pessoas já jogaram tetr
 
 **Biblioteca PyGame:**
 
--`pygame.init`: inicia todos os módulos importados do pygame.
+- `pygame.init`: inicia todos os módulos importados do pygame.
 
--`pygame.display`: controla a janela e tela do jogo.
+- `pygame.display`: controla a janela e tela do jogo.
 
--`pygame.time`: monitora o tempo.
+- `pygame.time`: monitora o tempo.
 
--`pygame.event`: interage com eventos e listas.
+- `pygame.event`: interage com eventos e listas.
 
--`pygame.mixer`: carrega e toca sons.
+- `pygame.mixer`: carrega e toca sons.
 
--`pygame.Surface`: representa imagens.
+- `pygame.Surface`: representa imagens.
 
--`pygame.image`: carrega e salva imagens.
+- `pygame.image`: carrega e salva imagens.
 
--`pygame.draw`: possibilita o uso de formas e desenhos.
+- `pygame.draw`: possibilita o uso de formas e desenhos.
 
--`pygame.quit`: desliga todos os módulos importados do pygame.
+- `pygame.quit`: desliga todos os módulos importados do pygame.
 
