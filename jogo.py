@@ -3,6 +3,8 @@ import pygame.sprite
 from configuracao import *
 from random import choice
 from timer import Timer
+from sys import exit
+from os.path import join
 
 class Jogo:
     def __init__(self, adquirir_proximo_formato, atualizacao_pontos):
@@ -45,16 +47,28 @@ class Jogo:
         self.pontuacao_atual = 0
         self.linha_atual = 0
 
+        #som
+        self.landing_sound = pygame.mixer.Sound(join('musiquinha','landing.wav'))
+        self.landing_sound.set_volume(0.1)
+
     def calcula_pontos(self, n_linhas):
         self.linha_atual += n_linhas
         self.pontuacao_atual += DADOS_PONTUACAO[n_linhas] * self.nivel_atual
 
         if self.linha_atual / 10 > self.nivel_atual:
             self.nivel_atual += 1
+            self.velocidade_baixo *= 0.75
+            self.velocidade_baixo_maior = self.velocidade_baixo * 0.3
+            self.timers['movimento vertical'].duration = self.velocidade_baixo
         self.atualizacao_pontos(self.linha_atual, self.pontuacao_atual, self.nivel_atual)
-
+    def checar_game_over(self):
+        for bloco in self.tetromino.blocks:
+            if bloco.pos.y < 0:
+                exit()
     def criar_novo_tetromino(self):
+        self.landing_sound.play()
 
+        self.checar_game_over()
         self.checar_linhas_completas()
         self.tetromino = Tetromino(
             self.adquirir_proximo_formato(),
