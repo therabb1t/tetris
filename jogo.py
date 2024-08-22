@@ -33,7 +33,7 @@ class Jogo:
 
         #timer
         self.velocidade_baixo = ATUALIZACAO_VELOCIADE_INCIAL
-        self.velocidade_baixo_maior = self.velocidade_baixo * 0.3
+        self.velocidade_baixo_maior = self.velocidade_baixo * 0.2
         self.baixo_pressionado = False
         self.timers = {
             'movimento vertical': Timer(ATUALIZACAO_VELOCIADE_INCIAL, True, self.mover_baixo),

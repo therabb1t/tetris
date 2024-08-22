@@ -1,5 +1,3 @@
-import pygame.mixer
-
 from configuracao import *
 from sys import exit
 
@@ -41,7 +39,7 @@ class Main:
                     exit()
 
             self.display_surface.fill(CINZA) # cor do fundo
-            #componentes
+            # componentes
             self.jogo.loop()
             self.pontuacao.loop()
             self.pecas.loop(self.proximos_formatos)
